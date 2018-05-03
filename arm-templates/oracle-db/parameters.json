@@ -3,16 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "ghuser"
-    },
-    "adminKeyData": {
-      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC6YrqTjJf1XdTIqxaesr97kXHvqSSRQEwZCfPMf284huaq5IkzxOLpO6p8lK8xyEDFRB3rfKis+xaGHCdhiJh1BbWOWY2kvAqRiFlNFFbCYbOA/nquXMQhdYcOCvuNRdy011WGXHJdeDPKMlFEPsR2FKY4+KBoNKbumOMbeguzhNa4/0s/+xzpSZ4dWPAq94ONe4MNE0RzzBkQxwBkheIHOAbagLB3/WpG5150/mRei5vuLVllsXOTZrxrR6S7wRJEFbvKoBpMesAk5J2xBR33Rl3iJPFLNODGYVP7/qVAUESGvi5eA3mw1ry+lG3ElWj9ActVGVBlqQD0deZyyrrxbmdSKXBkPITVYs72pe+ZSmAqMmX0eBJMRfWTSKtm4b9vQ6rFVCTMWiO0fznvDc4HwKSH322TdYTtu2fwom2Cip0RGhwjYKllnBTOg8WHBMS+b2TxYh2smD3yeLvQ04FdMYMhiFdSV40qG5TZ3sZQPUOHNC8dOZtw4dkrJefWl/qnLetZU0UVm+lBoBOuyPtOJKVf9NFd2ptbQqowxk/4FWHHFBPIAwcQwtOfrWcqbzEx5LDvC/ejFnVKj+h8STZCYX2g7Pbf710ZGgyyYm28NmEq/qC16IFOhNPdd6BSp92LLAqDIQx92PITW41S8oTAhH6nLOe92aHCSKhgNa63ow== rackspace"
+      "value": "itari"
     },
     "adminPassword": {
       "value": "Password123#"
-    },
-    "dnsLabelPrefix": {
-      "value": "dhl"
     }
   }
 }
