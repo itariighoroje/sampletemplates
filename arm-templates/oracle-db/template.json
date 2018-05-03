@@ -14,12 +14,6 @@
         "description": "Password for the Virtual Machine."
       }
     },
-    "dnsLabelPrefix": {
-      "type": "string",
-      "metadata": {
-        "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
-      }
-    },
     "operatingSystem": {
       "type": "string",
       "defaultValue": "CentOS 6.9 20170707",
@@ -109,10 +103,7 @@
       "name": "[variables('webServerPublicIPAddressName')]",
       "location": "[resourceGroup().location]",
       "properties": {
-        "publicIPAllocationMethod": "[variables('publicIPAddressType')]",
-        "dnsSettings": {
-          "domainNameLabel": "[parameters('dnsLabelPrefix')]"
-        }
+        "publicIPAllocationMethod": "[variables('publicIPAddressType')]"
       }
     },
     {
