@@ -70,6 +70,7 @@
     "mongoDBNicName": "mongoDBVMNic",
     "mongoDBPublicIPAddressName" : "mongoDBPublicIpAddress",
     "mongoDBName": "MongoDB",
+    "mongoDBImage" : "/subscriptions/d46ecb75-5663-4bef-8aeb-4e542149a03d/resourceGroups/DHL_DEMO8/providers/Microsoft.Compute/images/MongoDBImage",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
@@ -597,21 +598,8 @@
         },
         "storageProfile": {
           "imageReference": {
-             "publisher": "[concat(variables('OS')[parameters('operatingSystem')].imagePublisher)]",
-             "offer": "[concat(variables('OS')[parameters('operatingSystem')].imageOffer)]",
-             "sku": "[concat(variables('OS')[parameters('operatingSystem')].sku)]",
-             "version": "[concat(variables('OS')[parameters('operatingSystem')].version)]"
-          },
-          "osDisk": {
-            "createOption": "FromImage"
-          },
-          "dataDisks": [
-            {
-              "diskSizeGB": 100,
-              "lun": 0,
-              "createOption": "Empty"
-            }
-          ]
+            "id": "[variables('mongoDBImage')]"
+          }
         },
         "networkProfile": {
           "networkInterfaces": [
