@@ -171,17 +171,7 @@
         "storageProfile": {
           "imageReference": {
             "id": "[variables('webServerImage')]"
-          },
-          "osDisk": {
-            "createOption": "FromImage"
-          },
-          "dataDisks": [
-            {
-              "diskSizeGB": 100,
-              "lun": 0,
-              "createOption": "Empty"
-            }
-          ]
+          }
         },
         "networkProfile": {
           "networkInterfaces": [
